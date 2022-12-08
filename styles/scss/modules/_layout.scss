@@ -66,8 +66,8 @@
     flex-direction: row;
   }
 
-  .g-elements--responsive {
-    grid-template-columns: 1fr 1fr;
+  .g-elements--responsive--hero {
+    grid-template-columns: 1fr 2fr;
   }
   .g-elements--album{
     grid-template-columns: 1fr 1fr 1fr;

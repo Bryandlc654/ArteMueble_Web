@@ -1,0 +1,19 @@
+.button{
+  background: rgb(255,36,73);
+  background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
+  border: 0.0625rem solid var(--primary-theme-color);
+  border-radius: 10px;
+  color: var(--secondary-theme-color);
+  font-size: .9rem;
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+  text-decoration: none;
+  padding: 1em 3em;
+  cursor: pointer;
+  transition: all 0.25s;
+
+  &:hover{
+    background: rgb(255,36,73);
+    background: linear-gradient(0deg, rgba(255,36,73,1) 5%, rgba(255,91,46,1) 36%); 
+  }
+}

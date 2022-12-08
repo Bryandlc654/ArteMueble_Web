@@ -1,0 +1,36 @@
+.card{
+  max-width: 320px;
+  overflow: hidden;
+
+  &__header{
+    padding: 0.5rem 1rem;
+  }
+  &__body{
+    padding: 1rem;
+  }
+  &__title{
+    line-height: 1;
+    font-size: 3.25rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+  }
+  &__text{
+    width: 100%;
+    font-size: 0.9rem;
+    text-align: justify;
+    margin: 0 0 1rem;
+  }
+  &__footer{
+    padding: 1rem;
+  }
+}
+ 
+@media (min-width: 768px) {
+  .card {
+    max-width: 512px;
+  }
+  .card__title{
+    font-size: 4rem;
+  }
+
+}

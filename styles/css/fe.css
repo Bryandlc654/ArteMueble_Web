@@ -5,7 +5,6 @@
   left: 0;
   width: 100%;
   background-color: var(--primary-theme-color);
-  box-shadow: 0 0 0 0.125rem var(--primary-shadow-color);
 }
 
 .section {
@@ -73,8 +72,8 @@
   .f-elements--responsive {
     flex-direction: row;
   }
-  .g-elements--responsive {
-    grid-template-columns: 1fr 1fr;
+  .g-elements--responsive--hero {
+    grid-template-columns: 1fr 2fr;
   }
   .g-elements--album {
     grid-template-columns: 1fr 1fr 1fr;
@@ -189,6 +188,10 @@
   gap: var(--padding-section);
 }
 
+.gap-lg {
+  gap: 5rem;
+}
+
 .m-right {
   margin-right: calc(var(--padding-section) * 2);
 }
@@ -205,73 +208,68 @@
   }
 }
 .hero {
-  background-image: url("https://static.vecteezy.com/system/resources/previews/002/868/084/non_2x/space-background-illustration-for-explore-in-outer-space-vector.jpg");
+  background-color: var(--primary-theme-color);
   background-position: center;
   background-size: cover;
   box-sizing: border-box;
   min-height: 100vh;
 }
 
-.hero__img {
-  position: relative;
-  max-width: 256px;
+main {
+  overflow: hidden;
 }
 
-.hero__primary-img {
-  display: flex;
-  background-color: var(--secondary-shadow-color);
-  border-radius: 50%;
-  width: 256px;
-  height: 256px;
+.card {
+  max-width: 320px;
+  overflow: hidden;
 }
-
-.hero__decorators {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  animation: t-rotate 10s linear infinite;
+.card__header {
+  padding: 0.5rem 1rem;
 }
-
-.hero__decorator {
-  position: absolute;
-  display: flex;
+.card__body {
+  padding: 1rem;
 }
-
-.hero__decorator:nth-child(1) {
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(0deg);
+.card__title {
+  line-height: 1;
+  font-size: 3.25rem;
+  font-weight: 800;
+  margin: 0 0 1rem;
 }
-
-.hero__decorator:nth-child(2) {
-  top: 50%;
-  left: 100%;
-  transform: translate(-50%, -50%) rotate(-90deg);
+.card__text {
+  width: 100%;
+  font-size: 0.9rem;
+  text-align: justify;
+  margin: 0 0 1rem;
 }
-
-.hero__decorator:nth-child(3) {
-  top: 50%;
-  left: 0%;
-  transform: translate(-50%, -50%) rotate(90deg);
-}
-
-.hero__decorator:nth-child(4) {
-  top: 0%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(180deg);
+.card__footer {
+  padding: 1rem;
 }
 
 @media (min-width: 768px) {
-  .hero__img {
-    max-width: 320px;
+  .card {
+    max-width: 512px;
   }
-  .hero__primary-img {
-    width: 320px;
-    height: 320px;
+  .card__title {
+    font-size: 4rem;
   }
+}
+.button {
+  background: rgb(255, 36, 73);
+  background: linear-gradient(0deg, rgb(255, 36, 73) 15%, rgb(255, 91, 46) 70%);
+  border: 0.0625rem solid var(--primary-theme-color);
+  border-radius: 10px;
+  color: var(--secondary-theme-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+  font-family: var(--primary-font-family);
+  text-decoration: none;
+  padding: 1em 3em;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.button:hover {
+  background: rgb(255, 36, 73);
+  background: linear-gradient(0deg, rgb(255, 36, 73) 5%, rgb(255, 91, 46) 36%);
 }
 
 /*# sourceMappingURL=fe.css.map */

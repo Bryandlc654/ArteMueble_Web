@@ -5,7 +5,6 @@
   position: relative;
 }
 
-
 .f-direction-column {
   flex-direction: column;
 }
@@ -16,6 +15,9 @@
 
 .gap-md {
   gap: var(--padding-section);
+}
+.gap-lg {
+  gap: 5rem;
 }
 .m-right{
   margin-right: calc(var(--padding-section)*2 );
