@@ -1,0 +1,34 @@
+.d-none{
+  display: none;
+}
+.p-relative {
+  position: relative;
+}
+
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+.gap-sm {
+  gap: calc(var(--padding-section) * 0.5);
+}
+
+.gap-md {
+  gap: var(--padding-section);
+}
+.m-right{
+  margin-right: calc(var(--padding-section)*2 );
+}
+
+@media (min-width: 768px) {
+  .md\:f-direction-row {
+    flex-direction: row;
+  }
+  .md\:d-block{
+    display: block;
+  }
+  .m-right{
+    margin-right: 0;
+  }
+}
