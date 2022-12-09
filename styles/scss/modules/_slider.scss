@@ -1,0 +1,35 @@
+.container-slider{
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+.slider{
+  display: flex;
+  margin-left: -100%;
+  width: 400%;
+}
+.slider__section{
+  width: 100%;
+}
+
+.slider__btn{
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: monospace;
+}
+.slider__btn--right{
+  right: 10px;
+}
+.slider__btn--left{
+  left: 10px;
+}

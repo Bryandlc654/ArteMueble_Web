@@ -243,6 +243,8 @@ main {
 }
 .card__footer {
   padding: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
@@ -251,6 +253,10 @@ main {
   }
   .card__title {
     font-size: 4rem;
+  }
+  .card__footer {
+    display: flex;
+    justify-content: start;
   }
 }
 .button {
@@ -270,6 +276,46 @@ main {
 .button:hover {
   background: rgb(255, 36, 73);
   background: linear-gradient(0deg, rgb(255, 36, 73) 5%, rgb(255, 91, 46) 36%);
+}
+
+.container-slider {
+  width: 90%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  margin-left: -100%;
+  width: 400%;
+}
+
+.slider__section {
+  width: 100%;
+}
+
+.slider__btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  font-family: monospace;
+}
+
+.slider__btn--right {
+  right: 10px;
+}
+
+.slider__btn--left {
+  left: 10px;
 }
 
 /*# sourceMappingURL=fe.css.map */

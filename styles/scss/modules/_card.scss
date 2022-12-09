@@ -22,6 +22,8 @@
   }
   &__footer{
     padding: 1rem;
+    display: flex;
+    justify-content: center;
   }
 }
  
@@ -31,6 +33,10 @@
   }
   .card__title{
     font-size: 4rem;
+  }
+  .card__footer{
+    display: flex;
+    justify-content: start;
   }
 
 }
