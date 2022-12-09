@@ -59,6 +59,9 @@
   &--album--second{
     grid-template-columns:100% ;
   }
+  &--responsive--hero {
+    grid-template-columns: 100%;
+  }
 }
 
 .t-align-center{
@@ -69,9 +72,8 @@
   .f-elements--responsive {
     flex-direction: row;
   }
-
   .g-elements--responsive--hero {
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 60%;
   }
   .g-elements--album{
     grid-template-columns:60% 1fr;
