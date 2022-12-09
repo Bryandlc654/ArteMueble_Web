@@ -3,9 +3,10 @@
   padding-bottom: var(--padding-container);
   box-sizing: border-box;
   &__title{
-    font-size: 2rem;
+    text-align: center;
+    font-size: 2.5rem;
     font-weight: 800;
-    margin: 0;
+    margin: 5rem 0 3rem;
   }
   &__subtitle{
     font-size: 1.5rem;
@@ -55,6 +56,9 @@
   &--responsive {
     grid-template-columns: 100%;
   }
+  &--album--second{
+    grid-template-columns:100% ;
+  }
 }
 
 .t-align-center{
@@ -70,6 +74,9 @@
     grid-template-columns: 1fr 2fr;
   }
   .g-elements--album{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns:60% 1fr;
+  }
+  .g-elements--album--second{
+    grid-template-columns:1fr 60% ;
   }
 }

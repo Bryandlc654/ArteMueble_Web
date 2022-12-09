@@ -14,6 +14,12 @@
     font-weight: 800;
     margin: 0 0 1rem;
   }
+  &__title--category{
+    line-height: 1;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0 0 1rem;
+  }
   &__text{
     width: 100%;
     font-size: 0.9rem;
@@ -24,6 +30,17 @@
     padding: 1rem;
     display: flex;
     justify-content: center;
+  }
+  &__category{
+    background-color: #f8fbff;
+    min-height: 25rem;
+    padding: 1rem 0.5rem;
+    justify-content: center;
+    justify-items: center;
+  }
+  &__category--img{
+   width: 60%;
+   object-fit: cover;
   }
 }
  
@@ -38,5 +55,4 @@
     display: flex;
     justify-content: start;
   }
-
 }
