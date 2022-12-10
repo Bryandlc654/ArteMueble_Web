@@ -7,6 +7,10 @@
     <title>Artemueble Web</title>
     <link
       rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -18,6 +22,7 @@
     <link rel="stylesheet" href="./styles/css/index.css" />
     <link rel="stylesheet" href="./styles/css/fe.css" />
   </head>
+
   <body class="body">
     <header class="header">
       <nav class="nav" id="header-nav">
@@ -34,7 +39,7 @@
           >
             <li><a href="#hero" class="list__link">Inicio</a></li>
             <li><a href="#category" class="list__link">Categorías</a></li>
-            <li><a href="#experiencias" class="list__link">Experiencia</a></li>
+            <li><a href="#shop" class="list__link">Tienda</a></li>
             <li><a href="#contacto" class="list__link">Contacto</a></li>
           </ul>
           <ul class="list f-elements f-elements--center gap-md m-right">
@@ -190,6 +195,7 @@
         </div>
       </article>
 
+
       <section class="section" id="category">
         <div class="container f-elements f-direction-column gap-md">
           <h2 class="section__title">Categorías</h2>
@@ -224,9 +230,7 @@
           </div>
 
           <div class="g-elements g-elements--album--second gap-sm">
-            <div
-              class="card__category f-elements f-direction-column gap-sm"
-            >
+            <div class="card__category f-elements f-direction-column gap-sm">
               <div class="card__body">
                 <p class="card_text">Sillas</p>
                 <h3 class="card__title--category">Butaca Dalila</h3>
@@ -238,9 +242,7 @@
               />
             </div>
 
-            <div
-              class="card__category f-elements f-direction-column gap-sm"
-            >
+            <div class="card__category f-elements f-direction-column gap-sm">
               <div class="card__body">
                 <p class="card_text">Calidad Premiun</p>
                 <h3 class="card__title--category">Butaca Dalila</h3>
@@ -255,11 +257,76 @@
         </div>
       </section>
 
-      <section class="section">
 
+      <section class="section" id="shop">
+        <div class="products container">
+          <h2 class="section__title">Nuestros Productos</h2>
+
+          <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide box">
+                <img src="./img/product_3.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_4.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_6.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_8.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper product-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide box">
+                <img src="./img/product_8.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_3.png" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_5.webp" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+
+              <div class="swiper-slide box">
+                <img src="./img/product_2.webp" alt="" />
+                <h3>Torta 3 pisos</h3>
+                <a href="#" target="_blank" class="btn">Cotizar</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
   </body>
 
   <script src="./js/slider.js"></script>
+  <!-- LIBRERIA JS https://swiperjs.com/get-started -->
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+  <script src="./js/swiper.js"></script>
 </html>
