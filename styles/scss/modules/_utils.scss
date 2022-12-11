@@ -13,8 +13,8 @@
   gap: calc(var(--padding-section) * 0.5);
 }
 .padding-x{
-  margin: 0;
-  padding:0 var(--padding-section);
+  padding-left:var(--padding-container) ;
+  padding-right:var(--padding-container);
 }
 .gap-md {
   gap: var(--padding-section);
@@ -27,17 +27,6 @@
 }
 .mg-auto{
   margin: 0 auto;
-}
-.input__mail{
-  border: none;
-  margin: 0;
-  width:67%;
-  height: 2.5rem;
-  padding:0 0 0 0.5rem;
-  color: rgb(34, 34, 34);
-  &:focus{
-    outline: none;
-  }
 }
 
 @media (min-width: 768px) {

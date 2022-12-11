@@ -210,7 +210,7 @@
             <div class="card__category f-elements f-direction-column gap-sm">
               <div class="padding-x">
                 <p class="card_text">Línea Premiun</p>
-                <h3 class="card__title--category">Butaca Dalila</h3>
+                <h3 class="card__title--category">Butaca Azya</h3>
               </div>
                 <img
                   src="./img/feature_2.webp"
@@ -223,7 +223,7 @@
             <div class="card__category f-elements f-direction-column gap-sm">
               <div class="padding-x">
                 <p class="card_text">Línea Premiun</p>
-                <h3 class="card__title--category">Butaca Dalila</h3>
+                <h3 class="card__title--category">Butaca Collen</h3>
               </div>
                 <img
                   src="./img/feature_3.webp"
@@ -234,7 +234,7 @@
             <div class="card__category f-elements f-direction-column gap-sm">
               <div class="padding-x">
                 <p class="card_text">Línea Premiun</p>
-                <h3 class="card__title--category">Butaca Dalila</h3>
+                <h3 class="card__title--category">Sofá Julien</h3>
               </div>
                 <img
                   src="./img/feature_4.webp"
@@ -255,25 +255,37 @@
               <div class="swiper-slide box">
                 <img src="./img/product_3.png" alt="" class="box--img" />
                 <h3 class="box--title">Dalila</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_4.png" alt="" class="box--img" />
                 <h3 class="box--title">Collen</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_6.png" alt="" class="box--img" />
                 <h3 class="box--title">Jurgen</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_8.png" alt="" class="box--img" />
                 <h3 class="box--title">Ayza</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
             </div>
           </div>
@@ -283,25 +295,37 @@
               <div class="swiper-slide box">
                 <img src="./img/product_8.png" alt="" class="box--img" />
                 <h3 class="box--title">Astor</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_3.png" alt="" class="box--img" />
                 <h3 class="box--title">Marie</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_5.webp" alt="" class="box--img" />
                 <h3 class="box--title">Koltt</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_2.webp" alt="" class="box--img" />
                 <h3 class="box--title">Cher</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
             </div>
           </div>
@@ -310,8 +334,8 @@
 
       <section class="section">
         <article id="hero" class="hero f-elements f-elements--center">
-          <div class="container container-slider">
-            <div class="g-elements g-elements--responsive--hero g-elements--center gap-lg">
+          <div class="container">
+            <div class="padding-x g-elements g-elements--responsive--hero g-elements--center gap-lg">
               <div class="hero__img">
                 <img
                   class="hero__primary-img"
@@ -335,12 +359,10 @@
                   </p>
                 </div>
                 <footer class="card__footer">
-                  <div class="container__mail">
-                    <input type="text" class="input__mail" />
-                    <button type="submit" class="button button--mail">
-                      ENVIAR
-                    </button>
-                  </div>
+                  <div class="input-group">
+                    <input type="email" class="input" id="Email" name="Email" placeholder="uiverse@verse.io" autocomplete="off">
+                    <input class="button--submit" value="Enviar" type="submit">
+                </div>
                 </footer>
               </div>
             </div>
@@ -350,68 +372,72 @@
 
       <section class="section" id="products">
         <div class="container">
-          <h2 class="section__title">Ofertas</h2>
+          <h2 class="section__title--shop">Ofertas <span class="subtitle__section">Tienda</span></h2>
           <div class="swiper product-slider">
             <div class="swiper-wrapper">
               <div class="swiper-slide box">
                 <img src="./img/product_3.png" alt="" class="box--img" />
                 <h3 class="box--title">Dalila</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_4.png" alt="" class="box--img" />
                 <h3 class="box--title">Collen</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_6.png" alt="" class="box--img" />
                 <h3 class="box--title">Jurgen</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
 
               <div class="swiper-slide box">
                 <img src="./img/product_8.png" alt="" class="box--img" />
                 <h3 class="box--title">Ayza</h3>
-                <a href="#" class="button--box">Cotizar</a>
+                <button class="icon-btn add-btn">
+                  <div class="add-icon"></div>
+                  <div class="btn-txt">Comprar</div>
+                </button>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section background--image">
-        <article
-          id="hero"
-          class="section__subscribe f-elements f-elements--center"
-        >
-          <div class="container container-slider">
-            <div class="card mg-auto">
-              <header class="card__header">
-                <h2 class="card__title--sale">
-                  Suscríbete para estar actualizado con nuevas ofertas
-                </h2>
-              </header>
-              <footer class="card__footer">
-                <div class="container__mail">
-                  <input type="text" class="input__mail" />
-                  <button type="submit" class="button button--mail">
-                    ENVIAR
-                  </button>
-                </div>
-              </footer>
-            </div>
-          </div>
-        </article>
+      <section class="container">
+        <h2 class="section__title--shop">Socios <span class="subtitle__section">Empresariales</span></h2>
+        <div class="section__logos">
+          <div><img src="./img/logo1.jpg" width="100%" alt=""></div>
+          <div><img src="./img/logo2.png" width="100%" alt=""></div>
+          <div><img src="./img/logo3.jpg" width="100%" alt=""></div>
+          <div><img src="./img/logo4.webp" width="100%" alt=""></div>
+          <div><img src="./img/logo5.jpg" width="100%" alt=""></div>
+          <div><img src="./img/logo6.jpg" width="100%" alt=""></div>
+          <div><img src="./img/logo7.webp" width="100%" alt=""></div>
+          <div><img src="./img/logo8.webp" width="100%" alt=""></div>
+        </div>
       </section>
     </main>
+
+    <div style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-2.54,95.23 C161.68,105.11 350.17,9.39 507.05,115.97 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: 
+      #f5f8ff;"></path></svg></div>
     <footer class="footer" id="contact">
       <div class="box__container--footer">
         <div>
           <img src="./img/logo.webp" alt="" class="nav__logo" />
-          <h3 class="title__footer">ARTEMUEBLES</h3>
-          <p class="text__footer">SIGUENOS EN NUESTRAS REDES SOCIALES</p>
+          <h3 class="title__footer">ARTEMUEBLES.</h3>
+          <p class="text__footer">NUESTRAS REDES SOCIALES</p>
           <div class="share">
             <a href="#" target="_blank" class="social__links"
               ><i class="bi bi-facebook"></i
@@ -457,12 +483,10 @@
         <div>
           <h3>REGISTRATE</h3>
           <p>INGRESA AQUI TU CORREO ELECTRONICO</p>
-          <input
-            type="email"
-            placeholder="ejemplo@hotmail.com"
-            class="input__footer"
-          />
-          <input type="submit" value="ENVIAR" class="btn__footer" />
+          <div class="input-group">
+            <input type="email" class="input" id="Email" name="Email" placeholder="uiverse@verse.io" autocomplete="off">
+            <input class="button--submit" value="Enviar" type="submit">
+        </div>
         </div>
       </div>
       <div class="credit">
