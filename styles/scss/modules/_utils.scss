@@ -1,6 +1,3 @@
-.d-none{
-  display: none;
-}
 .p-relative {
   position: relative;
 }
@@ -25,16 +22,10 @@
 .m-right{
   margin-right: calc(var(--padding-section)*2 );
 }
-.mg-auto{
-  margin: 0 auto;
-}
 
 @media (min-width: 768px) {
   .md\:f-direction-row {
     flex-direction: row;
-  }
-  .md\:d-block{
-    display: block;
   }
   .m-right{
     margin-right: 0;

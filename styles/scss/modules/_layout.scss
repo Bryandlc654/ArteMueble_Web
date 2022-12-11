@@ -14,9 +14,6 @@
     font-weight: 800;
     margin: 5rem 0 3rem;
   }
-  &__subscribe{
-    min-height: 70vh;
-  }
 }
 
 .container{
@@ -24,16 +21,6 @@
   margin: 0 auto;
   padding-left: var(--padding-container);
   padding-right: var(--padding-container);
-
-  &__mail{
-    margin: 0;
-    gap: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 0 10px 10px 0;
-  }
 }
 
 .f-elements{
@@ -74,15 +61,7 @@
   }
 }
 
-.t-align-center{
-  text-align: center;
-}
-.background--image{
-  margin: 2rem 0 .5rem 0;
-  background-image: url('/img/subscribe_area.webp');
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
+
 .subtitle__section{
   margin: 0 0 0 10%;
   font-size: 1.5rem;

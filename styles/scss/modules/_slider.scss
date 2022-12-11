@@ -37,20 +37,20 @@
   color: var(--secondary-theme-color);
   cursor: pointer;
   &--right{
-    right: 12%;
+    right: 35%;
   }
   &--left{
-    right: 25%;
+    left: 35%;
   }
 }
 
 
 @media (min-width: 768px) {
   .slider__btn--right{
-    right: 12%;
+    right: 40%;
   }
   .slider__btn--left{
-    right: 18%;
+    left: 40%;
   }
 }
 

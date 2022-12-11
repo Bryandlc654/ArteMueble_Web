@@ -1,4 +1,3 @@
-/* UNIVERSE.IO */
 .cssbuttons-io-button {
   background: rgb(255,36,73);
   background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
@@ -186,62 +185,3 @@
 .input:focus, .input:focus-visible {
   outline: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-.button{
-  background: rgb(255,36,73);
-  background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
-  border: 0.0625rem solid var(--primary-theme-color);
-  border-radius: 10px;
-  color: var(--secondary-theme-color);
-  font-size: .9rem;
-  font-weight: 500;
-  font-family: var(--primary-font-family);
-  text-decoration: none;
-  padding: 1em 3em;
-  cursor: pointer;
-  transition: all .25s;
-
-  &--mail{
-    padding: 0;
-    width: 30%;
-    height: 3rem;
-    border-radius: 0 10px 10px 0;
-    margin: 0;
-  }
-  &:hover{
-    background: rgb(255,36,73);
-    background: linear-gradient(0deg, rgba(255,36,73,1) 5%, rgba(255,91,46,1) 36%); 
-  }
-  &--box{
-    display: inline-block;
-    padding:.5rem 1.5rem;
-    font-size: 1rem;
-    border-radius: .5rem;
-    border: .1rem solid black;
-    color:black;
-    cursor: pointer;
-    background: none;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
-    transition: all .25s;
-  }
-  &--box:hover{
-    background: rgb(255,36,73);
-    background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
-    color: #fff;
-  }
-  
-}
-
-
-
