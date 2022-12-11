@@ -1,18 +1,18 @@
 .card{
   max-width: 320px;
   overflow: hidden;
-
-  &__header{
-    padding: 0.5rem 1rem;
-  }
-  &__body{
-    padding: 1rem;
-  }
+  box-sizing: border-box;
+  padding: 0.5rem;
+  
   &__title{
     line-height: 1;
-    font-size: 3.25rem;
+    font-size: 3rem;
     font-weight: 800;
-    margin: 0 0 1rem;
+    margin: 0 0 2rem;
+  }
+  &__subtitle{
+    font-size: 2rem;
+    font-weight: 600;
   }
   &__title--category{
     line-height: 1;
@@ -20,14 +20,21 @@
     font-weight: 800;
     margin: 0 0 1rem;
   }
-  &__text{
-    width: 100%;
-    font-size: 0.9rem;
-    text-align: justify;
+  &__title--sale{
+    line-height: 1;
+    font-size: 3.5rem;
+    font-weight: 800;
     margin: 0 0 1rem;
   }
+  &__text{
+    width: 100%;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    text-align: justify;
+    margin: 0 0 2rem;
+  }
   &__footer{
-    padding: 1rem;
+    padding: 1rem 0;
     display: flex;
     justify-content: center;
   }
@@ -39,9 +46,15 @@
     justify-items: center;
   }
   &__category--img{
+    margin: 0 auto;
    width: 60%;
    object-fit: cover;
   }
+}
+.text__contador{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2rem;
 }
 
 

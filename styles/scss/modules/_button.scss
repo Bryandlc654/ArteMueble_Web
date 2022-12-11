@@ -1,3 +1,58 @@
+.cssbuttons-io-button {
+  background: rgb(255,36,73);
+  background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
+  color: white;
+  font-family: inherit;
+  padding: 0.35em;
+  padding-left: 1.2em;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 0.9em;
+  border: none;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  box-shadow: inset 0 0 1.6em -0.6em #a64d4d;
+  overflow: hidden;
+  position: relative;
+  height: 2em;
+  padding-right: 3.3em;
+  text-decoration: none;
+ }
+ 
+ .cssbuttons-io-button .icon {
+  background: white;
+  margin-left: 1em;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.2em;
+  width: 2.2em;
+  border-radius: 0.7em;
+  box-shadow: 0.1em 0.1em 0.6em 0.2em #b96552;
+  right: 0.3em;
+  transition: all 0.3s;
+ }
+ 
+ .cssbuttons-io-button:hover .icon {
+  width: calc(100% - 0.6em);
+ }
+ 
+ .cssbuttons-io-button .icon svg {
+  width: 1.1em;
+  transition: transform 0.3s;
+  color: #ff6b08;
+ }
+ 
+ .cssbuttons-io-button:hover .icon svg {
+  transform: translateX(0.1em);
+ }
+ 
+ .cssbuttons-io-button:active .icon {
+  transform: scale(0.95);
+ }
+
 .button{
   background: rgb(255,36,73);
   background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
@@ -10,10 +65,39 @@
   text-decoration: none;
   padding: 1em 3em;
   cursor: pointer;
-  transition: all 0.25s;
+  transition: all .25s;
 
+  &--mail{
+    padding: 0;
+    width: 30%;
+    height: 3rem;
+    border-radius: 0 10px 10px 0;
+    margin: 0;
+  }
   &:hover{
     background: rgb(255,36,73);
     background: linear-gradient(0deg, rgba(255,36,73,1) 5%, rgba(255,91,46,1) 36%); 
   }
+  &--box{
+    display: inline-block;
+    padding:.5rem 1.5rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+    border: .1rem solid black;
+    color:black;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    transition: all .25s;
+  }
+  &--box:hover{
+    background: rgb(255,36,73);
+    background: linear-gradient(0deg, rgba(255,36,73,1) 15%, rgba(255,91,46,1) 70%);
+    color: #fff;
+  }
+  
 }
+
+
+
